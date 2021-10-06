@@ -1,0 +1,11 @@
+.news-img {
+    width: 135px;
+    height: 132px;
+}
+
+@media (min-width: 576px) {
+    .news-img {
+        width: 220px;
+        height: 168px;
+    }
+}

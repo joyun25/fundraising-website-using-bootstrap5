@@ -1,0 +1,143 @@
+@import "bootstrap/bootstrap";
+@import "index";
+@import "faq";
+@import "progress";
+@import "message";
+
+
+// index start
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-2rem {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pb-2rem {
+    padding-bottom: 2rem;
+}
+
+.mt-2rem {
+    margin-top: 2rem;
+}
+
+.letter-spacing-md {
+    letter-spacing: 3px;
+}
+
+.border-radius-1 {
+    border-radius: 8px;
+}
+
+.border-radius-2 {
+    border-radius: 10px;
+}
+
+.border-radius-sm-3 {
+    border-radius: 10px;
+}
+
+.letter-spacing-sm {
+    letter-spacing: 2px;
+}
+
+.btn-warning:hover {
+    border-color: $carrot;
+    background: $carrot;
+    color: white !important;
+}
+
+.btn-outline-gray:hover {
+    border-color: $warning;
+    background: $warning;
+    color: $dark;
+    .fa-heart {
+        color: $carrot;
+    }
+}
+
+.line {
+    display: inline-block;
+    width: auto;
+}
+
+.line--warning {
+    border-top: 2px solid $warning;
+    margin-top: 18px;
+}
+
+.line--light {
+    border-top: 2px solid $light;
+    margin-top: 13px;
+}
+
+.company-icon-position-facebook {
+    top: 6px;
+    left: 10px;
+    z-index: 2;
+}
+
+.company-icon-position-youtube {
+    top: 6px;
+    left: 6px;
+    z-index: 2;
+}
+
+.ff-bt {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.fs-5- {
+    font-size: 1.125rem;
+}
+
+.fs-8 {
+    font-size: 0.75rem;
+}
+
+@media (min-width:768px) {
+    .fs-md-5 {
+        font-size: 20px;
+    }
+
+    .fs-md-6 {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+    .border-radius-sm-3 {
+        border-radius: 40px;
+    }
+}
+
+.input-text {
+    color: #999999;
+}
+
+.top-nav {
+    top: 82px;
+}
+
+.h-100vh-nav {
+    height: calc(100vh - 82px);
+}
+
+// index end
+
+// faq start
+
+
+
+// faq end
